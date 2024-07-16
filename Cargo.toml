@@ -1,5 +1,5 @@
 [package]
-name = "example-sqlite"
+name = "shad_backend"
 version = "0.1.0"
 edition = "2021"
 publish = false
@@ -9,7 +9,7 @@ askama = { version = "0.12.1", features = ["with-axum"] }
 askama_axum = "0.4.0"
 async-trait = "0.1.74"
 axum = "0.7.0"
-axum-login = { path = "../../axum-login" }
+axum-login = "0.15.3"
 axum-messages = "0.6.0"
 http = "1.0.0"
 hyper = "1.0.1"
